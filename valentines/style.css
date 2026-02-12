@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    overflow: hidden;
+    margin: 0;
+    background: url(killer.jpg);
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff4da6;
+    color: white;
+}
+
+#noBtn {
+    background-color: #999;
+    color: white;
+}
+
+.heart {
+    position: fixed;
+    color: red;
+    font-size: 20px;
+    animation: floatUp 5s linear infinite;
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(100vh); opacity: 1; }
+    100% { transform: translateY(-10vh); opacity: 0; }
+}
+
+.slideshow img {
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+}
